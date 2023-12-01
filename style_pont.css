@@ -1,0 +1,51 @@
+.main {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tabla {
+  width: 80%;
+  margin: auto;
+  overflow: auto;
+  color: rgb(255, 255, 255);
+}
+
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  
+}
+
+th {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px;
+}
+
+tr {
+    background-color: gray;
+}
+
+td {
+    text-align: end;
+}
+
+td:nth-child(2), th:nth-child(2){
+    border-right:1px solid rgb(90, 90, 90);
+}
+
+tr:nth-child(odd) {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(46, 46, 46);
+}
